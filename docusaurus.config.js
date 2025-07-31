@@ -277,11 +277,10 @@ const config = {
         // The application ID provided by Algolia
         appId: 'V9UF6750GH',
         // Public API key: it is safe to commit it
-        apiKey: '028e3dad834905a2a2c2a7ad9da9e666',
+        apiKey: process.env.ALGOLIA_API_KEY,
         indexName: 'avaloniaui_docs',
       },
     }),
 };
 
 module.exports = config;
-
